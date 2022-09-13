@@ -1,17 +1,19 @@
 ﻿using NUnit.Framework;
 
-namespace selenium_sample;
-
-public class Tests
+namespace SeleniumSample.TestSuites
 {
-    [SetUp]
-    public void Setup()
+    public class Suit1
     {
-    }
+        [SetUp]
+        public void Setup()
+        {
+        }
 
-    [Test]
-    public void Test1()
-    {
-        Assert.Pass();
+        [Test]
+        public void Test1()
+        {
+
+            Assert.Pass();
+        }
     }
 }
