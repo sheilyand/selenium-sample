@@ -6,7 +6,7 @@ namespace SeleniumSample.WebDriver
 {
     public class WebDriver
     {
-        public IWebDriver driver { get; set; }
+        public ChromeDriver driver { get; set; }
 
         public WebDriver()
         {
